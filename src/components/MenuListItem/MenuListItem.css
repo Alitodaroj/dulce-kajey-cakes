@@ -12,13 +12,13 @@
     font-size: 4vmin;
   }
   
-  .MenuListItem .emoji {
-    height: 8vw;
-    width: 8vw;
-    font-size: 4vw;
+  .MenuListItem .img {
+    height: 10px;
+    width: 10px;
     background-color: var(--tan-1);
     border: .1vmin solid var(--tan-3);
     border-radius: 1vmin;
+    object-fit: contain;
   }
   
   .MenuListItem .buy {
@@ -38,4 +38,8 @@
     color: var(--text-light);
   }
   
+img {
+  width: 5em;
+  height: 5em;
+}
   

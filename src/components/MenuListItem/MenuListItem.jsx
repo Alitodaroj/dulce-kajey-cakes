@@ -1,9 +1,12 @@
 import './MenuListItem.css';
 
 export default function MenuListItem({ menuItem, handleAddToOrder }) {
+  console.log(menuItem)
   return (
     <div className="MenuListItem">
-      <div className="emoji flex-ctr-ctr">{menuItem.emoji}</div>
+      <div className="emoji flex-ctr-ctr">
+        <img src={menuItem.img} alt =''/>
+      </div>
       <div className="name">{menuItem.name}</div>
       <div className="buy">
         <span>${menuItem.price.toFixed(2)}</span>

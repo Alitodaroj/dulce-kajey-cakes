@@ -1,14 +1,15 @@
-.container {
-  width: 200px;
-  height: 120px;
-}
-.Logo {
-  width:100%;
-  height:auto;
-  object-fit:cover;
-  object-position:20% 2ch;
+.logo-container {
+  width: 10px;
+  height: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center;  
+  margin: 30px;
+}
+
+.logo-container img {
+  width: 25vmin;
+  height: auto;
+  border-radius: 25%;
 }

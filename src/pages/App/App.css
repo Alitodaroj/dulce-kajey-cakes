@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.App {
+  text-align: center;
+  background-image: url('https://i.imgur.com/9JTeynTl.png');
+  background-size: contain; 
+  background-repeat: no-repeat;
+  background-position: center; 
+  min-height: 100vh; 
+}
